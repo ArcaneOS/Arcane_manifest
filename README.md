@@ -1,6 +1,6 @@
 # ArcaneOS #
 <p align="center">
-  <img src="https://i.imgur.com/hde4M6s.png" />
+  <img src="https://i.imgur.com/up0ipZh.png" />
 </p>
 ### Sync ###
 
