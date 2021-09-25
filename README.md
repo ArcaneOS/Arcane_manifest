@@ -28,3 +28,6 @@ $ mka bacon -jX
 ```
 ## Credits
  * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**CipherOS**](https://github.com/CipherOS)
+ * [**WaveOS**](https://github.com/Wave-Project)
+
