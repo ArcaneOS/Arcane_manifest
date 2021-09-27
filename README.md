@@ -30,4 +30,10 @@ $ mka bacon -jX
  * [**PixelExperience**](https://github.com/PixelExperience)
  * [**CipherOS**](https://github.com/CipherOS)
  * [**WaveOS**](https://github.com/Wave-Project)
+ * [**HyconOS**](https://github.com/HyconOS)
+ * [**SpiceOS**](https://github.com/SpiceOS)
+ * [**P-404**](https://github.com/P-404)
+ * [**PixelBlaster-OS**](https://github.com/PixelBlaster-OS)
+ 
+and the list goes on..
 
