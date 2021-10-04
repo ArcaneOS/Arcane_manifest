@@ -194,6 +194,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel-plus" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="dlwlrma123" />
+  <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="dlwlrma123" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
