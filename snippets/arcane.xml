@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="dlwlrma123"
-          fetch="https://github.com/dlwlrma123"
+  <remote name="ArcaneOS"
+          fetch="https://github.com/ArcaneOS"
           revision="R" />
           
   <remote name="pixel"
@@ -108,12 +108,12 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
   <project path="external/toybox" name="external_toybox" remote="pixel" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="pixel" />
-  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="dlwlrma123" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="ArcaneOS" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel-plus" />
-  <project path="frameworks/base" name="Arcane_frameworks_base" remote="dlwlrma123" />
-  <project path="frameworks/native" name="frameworks_native" remote="dlwlrma123" />
+  <project path="frameworks/base" name="Arcane_frameworks_base" remote="ArcaneOS" />
+  <project path="frameworks/native" name="frameworks_native" remote="ArcaneOS" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
@@ -122,7 +122,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="pixel" />
   <project path="bionic" name="bionic" remote="pixel" />
-  <project path="build/make" name="build" remote="dlwlrma123">
+  <project path="build/make" name="build" remote="ArcaneOS">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -138,10 +138,10 @@
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="dlwlrma123" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="ArcaneOS" />
   <project path="manifest" name="manifest" remote="pixel-plus" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
-  <project path="vendor/aosp" name="Arcane_vendor" remote="dlwlrma123" />
+  <project path="vendor/aosp" name="Arcane_vendor" remote="ArcaneOS" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
 
@@ -179,7 +179,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="pixel-plus" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
-  <project path="packages/apps/Settings" name="Arcane_packages_apps_Settings" remote="dlwlrma123" />
+  <project path="packages/apps/Settings" name="Arcane_packages_apps_Settings" remote="ArcaneOS" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="pixel" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
@@ -193,8 +193,8 @@
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel-plus" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
-  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="dlwlrma123" />
-  <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="dlwlrma123" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="ArcaneOS" />
+  <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="ArcaneOS" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
