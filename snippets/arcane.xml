@@ -120,7 +120,7 @@
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="pixel" />
 
   <!-- General repos -->
-  <project path="art" name="art" remote="pixel" />
+  <project path="art" name="art" remote="ArcaneOS" />
   <project path="bionic" name="bionic" remote="ArcaneOS" />
   <project path="build/make" name="build" remote="ArcaneOS">
     <copyfile src="core/root.mk" dest="Makefile" />
