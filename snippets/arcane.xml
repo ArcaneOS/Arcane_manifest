@@ -23,6 +23,10 @@
           fetch="https://gitlab.com/PixelExperience"
           revision="eleven" />
 
+  <remote name="dlwlrma123-gitlab"
+          fetch="https://gitlab.com/dlwlrma123"
+          revision="R" />
+          
   <remote name="pixel-gitlab-self-hosted"
           fetch="https://gitlab.pixelexperience.org/android"
           revision="eleven" />
@@ -142,7 +146,7 @@
   <project path="manifest" name="manifest" remote="pixel-plus" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
   <project path="vendor/aosp" name="Arcane_vendor" remote="ArcaneOS" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="dlwlrma123-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
 
   <!-- Hardware repos -->
