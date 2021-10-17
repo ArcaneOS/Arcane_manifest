@@ -1,15 +1,15 @@
 # ArcaneOS #
 <p align="center">
-  <img src="https://i.imgur.com/zKqfYIb.png" />
+  <img src="https://i.imgur.com/B4CVLQ1.png" />
 </p>
 
 ```bash
 * ArcaneOS is a simple rom, fueled by Pixel Experience that aims to be simple yet cunning. ArcaneOS provides necessary
   customizations that is needed for every day life, from your traffic indicator down to your favorite icon styles. 
   While also promising to be simple, ArcaneOS was made to be aesthetic without making its users go through a lot 
-  of configurations. ArcaneOS is a fan LineageOS; simple, bloatfree and fast.
+  of configurations. ArcaneOS is a fan of simplicity. We strive to keep the ROM bloatfree and fast.
   
-* This custom-ROM has no affiliations or connections to the ArcaneOS described here:(https://www.xda-developers.com/fbi-backdoor-pixel-arcaneos-anom). The brand name was inspired by the terminology "Arcane" from the game called "dota 2".
+* This custom ROM has no affiliations or connections to the ArcaneOS described here:(https://www.xda-developers.com/fbi-backdoor-pixel-arcaneos-anom). The brand name was inspired by the terminology "Arcane" from the game called "dota 2".
 
 ```
   
@@ -37,7 +37,7 @@ $ lunch aosp_$device-userdebug
 # Build the code
 $ mka bacon -jX
 ```
-### Build ###
+### Credits ###
  * [**PixelExperience**](https://github.com/PixelExperience)
  * [**CipherOS**](https://github.com/CipherOS)
  * [**WaveOS**](https://github.com/Wave-Project)
