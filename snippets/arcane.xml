@@ -182,6 +182,7 @@
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="pixel" />
   <project path="packages/apps/exTHmSettings" name="packages_apps_exTHmSettings" remote="ArcaneOS" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
+  <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="ArcaneOS" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Lawnchair" name="packages_apps_Lawnchair" remote="ArcaneOS" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
