@@ -78,6 +78,7 @@
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/robolectric-shadows" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />

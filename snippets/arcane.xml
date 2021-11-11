@@ -114,6 +114,7 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="pixel" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="ArcaneOS" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="ArcaneOS" />
+  <project path="external/zlib-ng" name="android_external_zlib-ng" remote="ArcaneOS" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel-plus" />
