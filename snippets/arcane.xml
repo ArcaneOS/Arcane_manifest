@@ -128,6 +128,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="ArcaneOS" />
   <project path="bionic" name="bionic" remote="ArcaneOS" />
+  <project path="libcore" name="android_libcore" remote="ArcaneOS" />
   <project path="build/make" name="build" remote="ArcaneOS">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -223,11 +224,12 @@
   <project path="system/bt" name="system_bt" remote="pixel" />
   <project path="system/core" name="system_core" remote="ArcaneOS" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="pixel" />
+  <project path="system/iorap" name="system_iorap" remote="ArcaneOS" />
   <project path="system/libufdt" name="system_libufdt" remote="pixel" />
   <project path="system/media" name="system_media" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel-plus" />
   <project path="system/nfc" name="system_nfc" remote="pixel" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="ArcaneOS" />
   <project path="system/timezone" name="system_timezone" remote="pixel" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="pixel" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="pixel" />
